@@ -10,6 +10,7 @@
 
 
     <ItemGroup>
+      <PackageReference Include="atisu.services.common" Version="13.2.2" />
       <PackageReference Include="BenchmarkDotNet" Version="0.13.10" />
     </ItemGroup>
 
