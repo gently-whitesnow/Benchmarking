@@ -1,6 +1,6 @@
 namespace Benchmarking.AsyncTrucksOperationResultStand.Entities;
 
-public record struct AsyncTruckOperationResult<T>
+public record AsyncTruckOperationResult<T>
 {
     public bool IsSuccess { get; private set; }
     public bool IsNotSuccess => !IsSuccess;

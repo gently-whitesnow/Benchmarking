@@ -5,12 +5,13 @@ using Benchmarking.AsyncCoreOperationResultStand;
 using Benchmarking.AsyncLoadsOperationResultStand;
 using Benchmarking.AsyncTrucksOperationResultStand;
 using Benchmarking.CoreOperationResultStand;
+using Benchmarking.ImplicitableOperationResultStand;
 using Benchmarking.LoadsOperationResultStand;
 using Benchmarking.TrucksOperationResultStand;
 
-BenchmarkRunner.Run<AsyncCoreTestedController>();
+// BenchmarkRunner.Run<AsyncCoreTestedController>();
 // BenchmarkRunner.Run<AsyncLoadsTestedController>();
-// BenchmarkRunner.Run<AsyncTruckTestedController>();
+BenchmarkRunner.Run<Controller>();
 //
 // BenchmarkRunner.Run<CoreTestedController>();
 // BenchmarkRunner.Run<LoadsTestedController>();
